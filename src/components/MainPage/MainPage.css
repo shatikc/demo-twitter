@@ -1,0 +1,10 @@
+/* MainPage.css */
+
+.main-page {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .main-page h1 {
+    color: #1da1f2;  /* Twitter's brand color */
+  }
