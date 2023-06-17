@@ -22,3 +22,12 @@
 .logo-avatar:hover {
   background-color: rgba(240, 240, 240);
 }
+
+.nav-button{
+  border-color: transparent;
+  border: 0cap;
+}
+
+.nav-button:hover {
+  background-color: rgba(240, 240, 240);
+}
