@@ -4,8 +4,9 @@ import Avatar from '@mui/material/Avatar';
 import logo from '../../assets/twitterLogo.png';
 import Button from '@mui/material/Button';
 import Box from '@mui/material/Box';
-import SearchIcon from '@material-ui/icons/Search';
-import SettingsIcon from '@material-ui/icons/Settings';
+// import SearchOutlined from '@material-ui/icons/SearchOutlined';
+import SettingsOutlined from '@material-ui/icons/SettingsOutlined';
+import SearchOutlined  from '@material-ui/icons/SearchOutlined';
 
 const NavigationBar = () => {
   return (
@@ -22,16 +23,18 @@ const NavigationBar = () => {
                    className='nav-button'
                    size='large'
                    variant="text" 
-                   sx={{ borderRadius: 28, bgcolor: 'transparent', color: 'black', '&:hover': { bgcolor: 'rgba(240, 240, 240)' }}}
-                   startIcon={<SearchIcon />}>
+                   sx={{ borderRadius: 28, bgcolor: 'transparent', color: 'black', textTransform: 'capitalize',
+                   fontSize: 'large',fontWeight: 'bold', '&:hover': { bgcolor: 'rgba(240, 240, 240)'}}}
+                   startIcon={<SearchOutlined className='searchIcon'/>}>
             Explore
           </Button>
           <Button 
                   className='nav-button'
                   size='large' 
                   variant="text" 
-                  sx={{ borderRadius: 28, bgcolor: 'transparent', color: 'black', '&:hover': { bgcolor: 'rgba(240, 240, 240)'}}} 
-                  startIcon={<SettingsIcon />}>
+                  sx={{ borderRadius: 28, bgcolor: 'transparent', color: 'black', textTransform: 'capitalize',
+                        fontSize: 'large', '&:hover': { bgcolor: 'rgba(240, 240, 240)'}}} 
+                  startIcon={<SettingsOutlined />}>
             Settings
           </Button>
         </Box>

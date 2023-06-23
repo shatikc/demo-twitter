@@ -2,9 +2,14 @@
 
 .main-page {
     text-align: center;
-    padding: 20px;
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
   }
   
   .main-page h1 {
     color: #1da1f2;  /* Twitter's brand color */
   }
+
+  

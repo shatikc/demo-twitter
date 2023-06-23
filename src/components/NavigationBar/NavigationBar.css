@@ -1,10 +1,12 @@
 /* Twitter navigation bar css */
 .navigation-bar {
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
   background-color: white;
-  padding: 10px;
+  width: 18%; 
+  height: 40%; 
 }
 
 /* Centered the avatar logo of twitter */
@@ -23,11 +25,11 @@
   background-color: rgba(240, 240, 240);
 }
 
-.nav-button{
-  border-color: transparent;
-  border: 0cap;
-}
-
 .nav-button:hover {
   background-color: rgba(240, 240, 240);
+}
+
+.searchIcon {
+  stroke: black;
+  stroke-width: 2;
 }
