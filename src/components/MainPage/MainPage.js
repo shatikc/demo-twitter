@@ -9,7 +9,7 @@ import BottomMainPage from '../BottomMainPage/BottomMainPage';
 const MainPage = () => {
   return (
     <div className="main-page">
-        <NavigationBar />
+      <NavigationBar />
       <h1>Welcome to My Twitter Clone!</h1>
       <p>This is a clone of Twitter built with React and Firebase.</p>
       <TweetsFeed />

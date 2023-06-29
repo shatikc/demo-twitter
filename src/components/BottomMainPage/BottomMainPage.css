@@ -5,10 +5,11 @@
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     height: 75px;
-    width: 101%;
+    width: 100%;
 }
 
 .title-1 {
+    /* margin: 7px 150px 10px 300px; */
     margin-top: 7px;
     margin-bottom: 5px;
     margin-left: 300px;
@@ -16,6 +17,7 @@
 }
 
 .title-4 {
+    /* margin: 7px 150px 10px 300px; */
     margin-top: 0%;
     margin-left: 300px;
     margin-right: 150px;
